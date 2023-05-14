@@ -1,0 +1,114 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.left_content {
+    width: 32rem;
+    background-color: black;
+    display: flex;
+}
+
+.left_content img {
+    height: 100%;
+}
+
+.left_content ul {
+    display: flex;
+    list-style-type: none;
+    width: 30rem;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(238, 232, 232);
+}
+
+.right_content{
+    background-color: black;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right_content i {
+    font-size: 1,5rem;
+    color: white;
+
+}
+
+.bell_icon_container {
+    position: relative;
+
+}
+
+.bell_icon_container div {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: rgb(234, 3, 3);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+main {
+    background-image: url("/assets/image.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:calc(100vh - 5rem);
+    position: relative;
+    padding-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+.pg {
+    background-color: rgba(0, 0, 0, 0.441);
+    width: 8rem;
+    height: 3rem;
+    border-left: 2px solid lightgrey;
+    position: absolute;
+    right: 0px;
+    top:50px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.main_text {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px black;
+}
+
+.main_text p:nth-child(1) {
+    font-size: 2.5rem;
+}
+
+.main_text p:nth-child(2) {
+    font-size: larger;
+}
+.main_text p:nth-child(3) {
+    font-style: italic;
+}

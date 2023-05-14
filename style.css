@@ -69,7 +69,7 @@ header {
 }
 
 main {
-    background-image: url("./assets/image.png");
+    background-image: url(assets/image.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
